@@ -10,30 +10,28 @@
   ],
   "url": "https://github.com/sparrow-chik-chrk/foundryvtt_system_shadowrun2e",
   "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "Replace this with a link to file issues or tickets",
+  "changelog": "CHANGELOG.md",
   "media": [
     {
       "type": "setup",
-      "url": "systems/shadowrun2e/assets/anvil-impact.png",
-      "thumbnail": "systems/shadowrun2e/assets/anvil-impact.png"
+      "url": "systems/boilerplate/assets/anvil-impact.png",
+      "thumbnail": "systems/boilerplate/assets/anvil-impact.png"
     }
   ],
-  "version": "0.0.1",
+  "version": "2.0.0",
   "compatibility": {
-    "minimum": 12,
-    "verified": "12.331"
+    "minimum": 11,
+    "verified": "11.315"
   },
   "esmodules": [
-    "module/shadowrun2e.mjs"
+    "module/boilerplate.mjs"
   ],
   "styles": [
-    "css/shadowrun2e.css"
+    "css/boilerplate.css"
   ],
   "languages": [
-    {
-      "lang": "ua",
-      "name": "Ukrainian",
-      "path": "lang/ua.json"
-    },
     {
       "lang": "en",
       "name": "English",
@@ -43,12 +41,11 @@
   "packs": [],
   "packFolders": [],
   "socket": false,
-  "manifest": "https://raw.githubusercontent.com/sparrow-chik-chrk/foundryvtt_system_shadowrun2e/master/system.json",
-  "background": "systems/shadowrun2e/assets/anvil-impact.png",
-  "grid": {
-    "distance": 5,
-    "units": "m"
-  },
+  "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
+  "download": "This must link to a .zip file of the current version",
+  "background": "systems/boilerplate/assets/anvil-impact.png",
+  "gridDistance": 5,
+  "gridUnits": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power"
 }

@@ -1,6 +1,6 @@
-import BoilerplateActorBase from "./base-actor.mjs";
+import Shadowrun2EActorBase from "./base-actor.mjs";
 
-export default class BoilerplateNPC extends BoilerplateActorBase {
+export default class Shadowrun2ENPC extends Shadowrun2EActorBase {
 
   static defineSchema() {
     const fields = foundry.data.fields;

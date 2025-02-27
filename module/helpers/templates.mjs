@@ -4,13 +4,13 @@
  * @return {Promise}
  */
 export const preloadHandlebarsTemplates = async function () {
-  return loadTemplates([
-    // Actor partials.
-    'systems/boilerplate/templates/actor/parts/actor-features.hbs',
-    'systems/boilerplate/templates/actor/parts/actor-items.hbs',
-    'systems/boilerplate/templates/actor/parts/actor-spells.hbs',
-    'systems/boilerplate/templates/actor/parts/actor-effects.hbs',
-    // Item partials
-    'systems/boilerplate/templates/item/parts/item-effects.hbs',
-  ]);
+    return loadTemplates([
+        // Actor partials.
+        "systems/shadowrun2e/templates/actor/parts/actor-features.hbs",
+        "systems/shadowrun2e/templates/actor/parts/actor-items.hbs",
+        "systems/shadowrun2e/templates/actor/parts/actor-spells.hbs",
+        "systems/shadowrun2e/templates/actor/parts/actor-effects.hbs",
+        // Item partials
+        "systems/shadowrun2e/templates/item/parts/item-effects.hbs",
+    ]);
 };

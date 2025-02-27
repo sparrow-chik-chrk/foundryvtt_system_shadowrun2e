@@ -1,6 +1,6 @@
-import BoilerplateDataModel from "./base-model.mjs";
+import Shadowrun2EDataModel from "./base-model.mjs";
 
-export default class BoilerplateItemBase extends BoilerplateDataModel {
+export default class Shadowrun2EItemBase extends Shadowrun2EDataModel {
 
   static defineSchema() {
     const fields = foundry.data.fields;

@@ -1,6 +1,6 @@
-import BoilerplateItemBase from "./base-item.mjs";
+import Shadowrun2EItemBase from "./base-item.mjs";
 
-export default class BoilerplateItem extends BoilerplateItemBase {
+export default class Shadowrun2EItem extends Shadowrun2EItemBase {
 
   static defineSchema() {
     const fields = foundry.data.fields;

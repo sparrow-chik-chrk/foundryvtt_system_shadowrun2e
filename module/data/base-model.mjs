@@ -1,4 +1,4 @@
-export default class BoilerplateDataModel extends foundry.abstract.TypeDataModel {
+export default class Shadowrun2EDataModel extends foundry.abstract.TypeDataModel {
   /**
    * Convert the schema to a plain object.
    * 
